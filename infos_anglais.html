@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<!--
+	Ce site est un projet porté par Selma EL BABARTI et Suzanne LEBASTARD dans le cadre du Master 1 Cultures Numériques. 
+    Il propose plusieurs datavisualisations sur l'enquête ETIC basée sur l'équipement numérique dans les écoles du premier degré.
+    La mise en lumière de l'article se base sur les importantes différences opposant les académies de Créteil et Reims.
+-->
+<html>
+	<head>
+    <title>DIGIT'ACADEMY by Selma & Suzanne</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/ajouts.css" />
+
+</head>
+
+<body>
+
+    <!------------------------------------------------------ HEADER : MENU ----------------------------------------------------------------->
+    <header id="header">
+        <h1><strong><a href="index_anglais.html">DIGIT'ACADEMY</a></strong> by Selma & Suzanne</h1>
+        <nav id="nav">
+            <ul>
+                <li><a href="presentation_anglais.html">PRESENTATION</a></li>
+                <li><a href="infos_anglais.html">INFORMATIONS</a></li>
+                <li>
+                    <div id="toggle-container">
+                        <a href="infos.html"><span id="on-label">FR</span></a>
+                        <a href="infos_anglais.html"><span id="off-label">EN</span></a>
+                        <div id="toggle-switch"></div>
+                    </div>
+
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+    <!------------------------------------------------------ MAIN ----------------------------------------------------------------->
+    <section id="main" class="wrapper">
+        <div class="container">
+
+            <header class="major special">
+                <h2>Some informations</h2>
+                 <p>Detailed explanations of data visualizations</p>
+             </header>
+
+             <h2>Map “Average number of students per computer per school district in metropolitan France”</h2>
+             <p>For each school district, we collected the total number of computers per school, the total number of students, and we made a ratio between the 2 (number of students / number of computers). We therefore obtain a result indicating the number of students for a computer. </p>
+            
+             <h2>Barplot "Number of material equipment per student per school district in metropolitan France"</h2>
+             <p>To obtain these figures, for each school district, we added up all the equipment available in the schools (computers, tablets, video projectors, etc.), which we divided by the total number of students per school district . In fact, we obtain a figure that is between 0 and 1: the closer the figure is to 1, the closer we get to one piece of equipment per student.</p>
+            
+             <h2>Barplot "Share of schools with access to at least one educational software in metropolitan France"</h2>
+             <p> To obtain these figures, we have, for each school district and for each type of software, identified the number of schools that answered "yes" to the question "is this type of software made available to students" . We then collected the number of schools per school district in order to calculate the share of those that actually have access to at least one software.</p>
+            
+             <h2>Animation "Proportion of referent teachers for digital technology"</h2>
+             <p>To obtain these shares, we added the number of teachers in France to obtain a total, we counted the number of schools that answered that they had a reference teacher for digital within their establishment and we calculated the share that this represented among all teachers in France.</p>
+
+             <h2>Radar “Reims and Créteil hardware equipment” and “Reims and Créteil software access”</h2>
+             <p>In the same way that we calculated the equipment per pupil and the percentage of schools declaring that they had access to at least one software, we proceeded in the same way to obtain the details of this equipment and this software. </p>
+            
+
+        </div>
+    </section>
+
+
+    <!----------------------------------------------- FOOTER ------------------------------------------------------>
+
+    <footer id="footer">
+        <div class="container">
+            <ul class="copyright">
+                <li>&copy; Selma EL BABARTI & Suzanne LEBASTARD</li>
+                <li><a href="https://mcn.univ-nantes.fr/?gclid=EAIaIQobChMI6ufB2fCD_gIVmI9oCR0ybwfSEAAYASAAEgLVf_D_BwE">Master CULTURES NUMERIQUES</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <!----------------------------------------------- SCRIPTS ------------------------------------------------------>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/ajouts.js"></script>
+
+</body></html>

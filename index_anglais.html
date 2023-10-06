@@ -1,0 +1,1316 @@
+<!DOCTYPE HTML>
+<!--
+	Ce site est un projet porté par Selma EL BABARTI et Suzanne LEBASTARD dans le cadre du Master 1 Cultures Numériques. 
+    Il propose plusieurs datavisualisations sur l'enquête ETIC basée sur l'équipement numérique dans les écoles du premier degré.
+    La mise en lumière de l'article se base sur les importantes différences opposant les académies de Créteil et Reims.
+-->
+<html>
+
+<head>
+    <title>DIGIT'ACADEMY by Selma & Suzanne</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/ajouts.css" />
+
+</head>
+
+<body class="landing">
+
+    <!------------------------------------------------------ HEADER : MENU ----------------------------------------------------------------->
+    <header id="header" class="alt">
+        <h1><strong><a href="index.html">DIGIT'ACADEMY </a></strong> by Selma & Suzanne</h1>
+        <nav id="nav">
+            <ul>
+                <li><a href="presentation_anglais.html">Presentation</a></li>
+                <li><a href="infos_anglais.html">INFORMATIONS</a></li>
+                <li>
+                    <div id="toggle-container">
+                        <a href="index.html"><span id="on-label">FR</span></a>
+                        <a href="index_anglais.html"><span id="off-label">EN</span></a>
+                        <div id="toggle-switch"></div>
+                    </div>
+
+
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+    <!------------------------------------------------------ BANNER : FOND D'ECRAN D'ACCUEIL ----------------------------------------------------------------->
+
+
+    <section id="banner">
+        <h2>Reims and Créteil: <br>
+            Digital in schools, different realities</h2>
+        <p>Near of sight, out of equality</p>
+        <ul class="actions">
+            <li><a href="#partie1" class="button special big ">discover</a></li>
+        </ul>
+    </section>
+
+
+    <!--------------------------------------------------- PREAMBULE : EXPLICATIONS INTRODUCTIVES ----------------------------------------------------------------->
+
+
+
+
+    <section id="preambule" class="wrapper style1">
+        <div id="partie1" , class="container 75%">
+            <div class="row 200%">
+                <div class="6u 12u$(medium)">
+                    <header class="major">
+                        <h2>Digital in elementary school</h2>
+                        <p>What are we talking about ?</p>
+                    </header>
+                </div>
+                <div class="6u$ 12u$(medium)">
+                    <p>Every year, a study implemented by the Ministry of National Education, called <a href="https://data.education.gouv.fr/explore/dataset/fr-en-etic_1d/information/">ETIC</a>, allows to collect from all schools <strong>data on the digital equipment, infrastructure and services available</strong>.</p>
+                    <p>In this article, we will focus on the differences between the Reims and Créteil school districts in 2019: two school districts that are geographically close yet opposed in terms of equipment and access to digital resources.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!------------------------------------------------- ONE : CARTE DE FRANCE ----------------------------------------------------------------->
+
+    <section id="one" class="wrapper style2 special">
+        <div class="container">
+            <header class="major">
+                <h2>Double or nothing!</h2>
+                <p>Students and machines</p>
+            </header>
+            <div class="row 150%">
+                <p><strong>Average number of students for a computer per school per school district in metropolitan France</strong><span class="info-icon info1">
+                        <i class="fa fa-info-circle"></i>
+                    </span></p>
+                <div class="info-bubble">
+                    Reading key : In the Nantes school district, 7 to 8 students share a computer in primary schools.
+                </div>
+
+
+                <div class="image fit captioned">
+                    <div class='tableauPlaceholder' id='viz1679828103615' style='position: relative'><noscript><a href='#'><img alt='Feuille 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;S8&#47;S8-analysededonnees-lvesparordi&#47;Feuille1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                            <param name='embed_code_version' value='3' />
+                            <param name='site_root' value='' />
+                            <param name='name' value='S8-analysededonnees-lvesparordi&#47;Feuille1' />
+                            <param name='tabs' value='no' />
+                            <param name='toolbar' value='yes' />
+                            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;S8&#47;S8-analysededonnees-lvesparordi&#47;Feuille1&#47;1.png' />
+                            <param name='animate_transition' value='yes' />
+                            <param name='display_static_image' value='yes' />
+                            <param name='display_spinner' value='yes' />
+                            <param name='display_overlay' value='yes' />
+                            <param name='display_count' value='yes' />
+                            <param name='language' value='fr-FR' />
+                        </object></div>
+                    <script type='text/javascript'>
+                        var divElement = document.getElementById('viz1679828103615');
+                        var vizElement = divElement.getElementsByTagName('object')[0];
+                        vizElement.style.width = '100%';
+                        vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+                        var scriptElement = document.createElement('script');
+                        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+
+                    </script>
+                </div>
+                <p>
+                    Overall we observe <strong>big disparities</strong> ranging from 5 to 13 students per computer. This already underlines the <strong>inequalities</strong> with regard to equipment in schools in France: if certain school districts like Reims have a proportion of 5 pupils per computer, in others, like Créteil, 13 pupils must share a computer, more than double!
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!---------------------------------------------- TWO : DEUX BARPLOTS MATERIEL ET LOGICIEL ---------------------------------------------------->
+
+    <section id="two" class="wrapper style2 special">
+
+
+        <div class="container">
+            <header class="major">
+                <h2>Créteil, always in trouble...</h2>
+                <p>Hardwares and softwares</p>
+            </header>
+
+
+            <div class="row 150%">
+                <div class="6u 12u$(xsmall)">
+                    <p><strong>Number of hardware for 1 student per school district in metropolitan France</strong><span class="info-icon info2">
+                            <i class="fa fa-info-circle"></i>
+                        </span></p>
+
+                    <div class="info-bubble">
+                        Reading key: In the Paris school district, 1 student owns about 0.25 machine.
+                    </div>
+                    <div class="flourish-embed flourish-chart" data-src="visualisation/13239062">
+                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                    </div>
+                </div>
+
+                <div class="6u 12u$(xsmall)">
+                    <p><strong>Share of schools with access to at least one educational software in metropolitan France</strong><span class="info-icon info3">
+                            <i class="fa fa-info-circle"></i>
+                        </span></p>
+
+                    <div class="info-bubble">
+                        Reading key : In the Paris school district, 19.62% of schools have access to at least one educational software.
+                    </div>
+
+                    <div class="flourish-embed flourish-chart" data-src="visualisation/13239219">
+                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                    </div>
+                </div>
+                <p>Overall, <strong>the figures speak for themselves</strong>: while some school districts seem to be better equipped, with hardware or software, we are still far from reaching 1 machine for 1 student and 100 % of schools with access to at least one software.</p>
+                <p>If we take a closer look at the best equipped school districts in terms of hardware, we find that <strong>Reims is at the top of the ranking</strong>, with a proportion of 0.36 hardware per student. By hardware, we mean all possible types of equipment that can be found in a school: from computers to video projectors, tablets or others, this means that Reims knows how to maintain its course for computers as well as for the rest of the equipment. </p>
+                <p>On the other hand, we cannot say the same thing about <strong>Créteil, which comes last</strong> both for its hardware (with 0.15 hardware per student) and for its access to software (with only 12.6% of its schools claiming to have at least one piece of educational software available to its students). </p>
+                <p>If schools in France still seem to be struggling with unpromising figures, <strong>the Créteil school district seems to be suffering more from the digital boom, even falling behind...</strong></p>
+                <p>On the other hand, <strong>the Nantes school district comes out on top of the rankings</strong> as far as software is concerned, even though it is not one of the best-equipped school districts (unlike the school district of Reims). </p>
+                <p>So <strong>how to explain these disparities?</strong> If it is difficult to imagine software without machines, is it really the equipment that influences access to software? Let's see if other factors come into play.</p>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!----------------------------------------------- THREE : DATAVISUALISATIONS ENSEIGNANTS REFERENTS ------------------------------------------------------>
+
+
+    <section id="three" class="wrapper style1">
+        <div class="container">
+            <header class="major special">
+                <h2>Digital referent teachers, the key to access to equipment?</h2>
+                <p>The role of a Digital Referent Teacher</p>
+            </header>
+
+
+            <p><strong>Percentage of reference teachers for digital</strong><span class="info-icon info5">
+                    <i class="fa fa-info-circle"></i>
+                </span>
+
+            </p>
+
+            <div class="info-bubble">
+                1 point = 1% of teachers in France.
+            </div>
+
+
+            <div class="flourish-embed" data-src="story/1878359">
+                <script src="https://public.flourish.studio/resources/embed.js"></script>
+            </div>
+            <p><strong>14% is not much</strong>, and yet it is the share of digital reference teachers among all teachers in primary schools in France.</p>
+            <p>This can be explained in particular by the <strong>lack of digital training</strong> for teachers. But why ? </p>
+            <p>There are <strong>many reasons</strong> that can explain this lack of referent teachers (RRUPN) in the school districts:
+                <li>First of all, <strong>it's not mandatory</strong>. The RRUPN is a teacher like the others and is assigned additional missions. It is therefore possible that due to a lack of resources (time, skills...), no teacher will volunteer.</li>
+                <li>The creation of RRUPN positions can also be explained by political reasons and the <strong>priorities of the school districts</strong>. Some school districts, even today, may consider the digital policy of their establishments as secondary, and not favor these positions.</li>
+                <li>The last reason may turn out to be <strong>financial</strong>. All of these policies require budgetary resources and sometimes simply cannot be implemented.</li>
+            </p>
+            <p>If you would like to know more about the role of a referent teacher, we invite you to read these <a href="https://drne.region-academique-bourgogne-franche-comte.fr/acteurs-referents -numerics/">explanations</a>. </p>
+            <p><strong>So which of the referrer or the equipment can affect access to the software?</strong></p>
+
+            <hr>
+
+
+            <p><strong>A stronger link between hardware and software than between referents and software</strong><span class="info-icon info5">
+                    <i class="fa fa-info-circle"></i>
+                </span>
+
+            </p>
+            <div class="info-bubble">
+                Reading key: In the Nantes school district, 2.49% of teachers are referents for digital; there is 0.23 equipment for a pupil and 21.37% of schools declare having access to at least one educational software.
+            </div>
+
+            <div class="flourish-embed" data-src="story/1878368">
+                <script src="https://public.flourish.studio/resources/embed.js"></script>
+            </div>
+            <p class="conclu">These visualizations show us how the school districts are distributed according to their share of digital referent teachers. In other words, the <strong>link between referents and software is less important than when we observe that between hardware and software</strong> (easily visible thanks to the distance from the line).</p>
+            <p>However, we note <strong>a few school districts that stray from this line</strong>: Créteil, Nantes, Besançon and Reims. </p>
+            <li><strong>For the Créteil school district</strong> we can almost say that it is both the presence of referents and very low level equipment that influences this very limited access to software.</ li>
+            <li><strong>For the school districts of Reims and Besançon</strong>, we observe another pattern: despite the significant presence of referents and equipment, the share of schools with access to software remains reduced because these school districts are well below the line.</li>
+            <li>On the other hand, <strong>the Nantes school district</strong> seems particularly well endowed in terms of access to software despite its limited equipment and average number of referent teachers. </li>
+
+            <br>
+
+            <p>We can therefore say that <strong>it is both the digital referents and the hardware that play on access to software</strong>, but that this access seems all the <strong>more sensitive to the presence of material</strong> than referents (except for the few school districts that stand out). Clearly, if you have plenty of hardware and referents, that's a good thing, but it's not the magic key to certain access to software. The answer to the question of the influence of these factors on each other then remains unclear (it should be stressed all the same that these are conclusions to be taken with a grain of salt, drawn from a dataset on 26 school districts and that if it were more important, the results would surely not be the same and perhaps more clear-cut).</p>
+        </div>
+    </section>
+
+
+
+
+
+    <!----------------------------------------------- FOUR : ZOOM CRETEIL & REIMS ------------------------------------------------------>
+
+    <section id="four" class="wrapper style2 special">
+        <div class="container">
+            <header class="major">
+                <h2>Focus on our stars</h2>
+                <p>Reims Vs Créteil, some views from the sky</p>
+            </header>
+            <div class="row 150%">
+                <div class="6u 12u$(xsmall)">
+                    <p><strong>Reims and Créteil hardwares </strong><span class="info-icon info5">
+                            <i class="fa fa-info-circle"></i>
+                        </span></p>
+
+                    <div class="info-bubble">
+                        In the Créteil school district, there are 0.09 computers for a student.
+                    </div>
+                    <div class="flourish-embed flourish-radar" data-src="visualisation/13249570">
+                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                    </div>
+                </div>
+
+
+
+
+                <div class="6u 12u$(xsmall)">
+                    <p><strong>Reims and Créteil software access </strong><span class="info-icon info7">
+                            <i class="fa fa-info-circle"></i>
+                        </span></p>
+
+                    <div class="info-bubble">
+                        In the Créteil school district, 5% of schools state that they provide their students with science and simulation software.
+                    </div>
+
+                    <div class="flourish-embed flourish-radar" data-src="visualisation/13249595">
+                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                    </div>
+                </div>
+                <p>Unsurprisingly and in accordance with what we have seen above, <strong>it is the Reims school district which is better endowed in terms of hardware and software access</strong>, compared to the school district of Créteil.</p>
+                <p>If we look in more detail at the types of hardwares, we still notice a <strong>shape quite similar to the two school districts</strong>: schools have many more terminals than tablets, for example. </p>
+                <p>It’s the <strong>same pattern for software access</strong>: online training resources are much more numerous than science and simulation software, for example.</p>
+                <p>This can be indicative of the <strong>nature of the type of activities carried out with students using these digital tools</strong> in the pedagogical framework: we can assume by seeing these distributions that we prefer to use these tools more like a source of training rather than as a learning support, we want to make the students manipulate more on the theories that the teacher will have transmitted beforehand rather than letting them look for this theory on their own. These are only suppositions that remain to be verified, but they are interesting breakdowns that can lead us to ask ourselves these types of questions to better understand the effective uses of digital tools in order to think about possible better equipment.</p>
+                <p>And you, <strong>are you curious?</strong> Choose the school district of your choice to view these distributions and make comparisons.</p>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!----------------------------------------------- FIVE : BOUTON A VOUS DE JOUER INTRO ------------------------------------------------------>
+
+    <section id="five" class="wrapper style3 special">
+        <div class="container">
+            <header class="major">
+                <h2>Your turn !</h2>
+            </header>
+            <ul class="actions">
+                <li><a href="#six" class="button special big">Visualize my school district</a></li>
+            </ul>
+        </div>
+    </section>
+
+
+
+
+
+    <!----------------------------------------------- SIX : LISTE DEROULANTE A VOUS DE JOUER ------------------------------------------------------>
+    <section id="six" class="wrapper style2 special">
+        <div class="container">
+            <header class="major">
+                <h2>Choose your school district !</h2>
+                <p>Your turn !</p>
+            </header>
+            <div class="row 150%">
+
+
+                <div class="image fit captioned">
+                    <div class="menu_deroulant">
+                        <div class="liste_academie">
+                            <select id="select-options">
+                                <option>School district</option>
+                                <option value="option-1">Aix-Marseille</option>
+                                <option value="option-2">Amiens</option>
+                                <option value="option-3">Besançon</option>
+                                <option value="option-4">Bordeaux</option>
+                                <option value="option-5">Caen</option>
+                                <option value="option-6">Clermont-Ferrand</option>
+                                <option value="option-7">Corse</option>
+                                <option value="option-8">Créteil</option>
+                                <option value="option-9">Dijon</option>
+                                <option value="option-10">Grenoble</option>
+                                <option value="option-11">Lille</option>
+                                <option value="option-12">Limoges</option>
+                                <option value="option-13">Lyon</option>
+                                <option value="option-14">Montpellier</option>
+                                <option value="option-15">Nancy-Metz</option>
+                                <option value="option-16">Nantes</option>
+                                <option value="option-17">Nice</option>
+                                <option value="option-18">Orléans-Tours</option>
+                                <option value="option-19">Paris</option>
+                                <option value="option-20">Poitiers</option>
+                                <option value="option-21">Reims</option>
+                                <option value="option-22">Rennes</option>
+                                <option value="option-23">Rouen</option>
+                                <option value="option-24">Strasbourg</option>
+                                <option value="option-25">Toulouse</option>
+                                <option value="option-26">Versailles</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+
+
+                    <div>
+
+                        <div id="option-1" class="option">
+                            <div class="row 150%">
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement matériel</strong><span class="info-icon info5">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+                                    <div class="info-bubble">
+                                        Mon texte informatif 6
+                                    </div>
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13215510">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement logiciel </strong><span class="info-icon info7">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+
+                                    <div class="info-bubble">
+                                        Mon texte informatif 7
+                                    </div>
+
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13240178">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div id="option-2" class="option">
+                            <div class="row 150%">
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement matériel</strong><span class="info-icon info5">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+                                    <div class="info-bubble">
+                                        Mon texte informatif 6
+                                    </div>
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13241002">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement logiciel </strong><span class="info-icon info7">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+
+                                    <div class="info-bubble">
+                                        Mon texte informatif 7
+                                    </div>
+
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13240461">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="option-3" class="option">
+                            <div class="row 150%">
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement matériel</strong><span class="info-icon info5">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+                                    <div class="info-bubble">
+                                        Mon texte informatif 6
+                                    </div>
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13241028">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement logiciel </strong><span class="info-icon info7">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+
+                                    <div class="info-bubble">
+                                        Mon texte informatif 7
+                                    </div>
+
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13240499">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div id="option-4" class="option">
+                            <div class="row 150%">
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement matériel</strong><span class="info-icon info5">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+                                    <div class="info-bubble">
+                                        Mon texte informatif 6
+                                    </div>
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13241091">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+
+                                </div>
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement logiciel </strong><span class="info-icon info7">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+
+                                    <div class="info-bubble">
+                                        Mon texte informatif 7
+                                    </div>
+
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13240506">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div id="option-5" class="option">
+                            <div class="row 150%">
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement matériel</strong><span class="info-icon info5">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+                                    <div class="info-bubble">
+                                        Mon texte informatif 6
+                                    </div>
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13241107">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement logiciel </strong><span class="info-icon info7">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+
+                                    <div class="info-bubble">
+                                        Mon texte informatif 7
+                                    </div>
+
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13240553">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div id="option-6" class="option">
+                            <div class="row 150%">
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement matériel</strong><span class="info-icon info5">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+                                    <div class="info-bubble">
+                                        Mon texte informatif 6
+                                    </div>
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13241122">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement logiciel </strong><span class="info-icon info7">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+
+                                    <div class="info-bubble">
+                                        Mon texte informatif 7
+                                    </div>
+
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13240561">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div id="option-7" class="option">
+                            <div class="row 150%">
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement matériel</strong><span class="info-icon info5">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+                                    <div class="info-bubble">
+                                        Mon texte informatif 6
+                                    </div>
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13241157">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement logiciel </strong><span class="info-icon info7">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+
+                                    <div class="info-bubble">
+                                        Mon texte informatif 7
+                                    </div>
+
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13240575">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div id="option-8" class="option">
+                            <div class="row 150%">
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement matériel</strong><span class="info-icon info5">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+                                    <div class="info-bubble">
+                                        Mon texte informatif 6
+                                    </div>
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13241178">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement logiciel </strong><span class="info-icon info7">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+
+                                    <div class="info-bubble">
+                                        Mon texte informatif 7
+                                    </div>
+
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13240587">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div id="option-9" class="option">
+                            <div class="row 150%">
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement matériel</strong><span class="info-icon info5">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+                                    <div class="info-bubble">
+                                        Mon texte informatif 6
+                                    </div>
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13241191">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement logiciel </strong><span class="info-icon info7">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+
+                                    <div class="info-bubble">
+                                        Mon texte informatif 7
+                                    </div>
+
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13240596">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div id="option-10" class="option">
+                            <div class="row 150%">
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement matériel</strong><span class="info-icon info5">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+                                    <div class="info-bubble">
+                                        Mon texte informatif 6
+                                    </div>
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13241204">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement logiciel </strong><span class="info-icon info7">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+
+                                    <div class="info-bubble">
+                                        Mon texte informatif 7
+                                    </div>
+
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13240604">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div id="option-11" class="option">
+                            <div class="row 150%">
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement matériel</strong><span class="info-icon info5">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+                                    <div class="info-bubble">
+                                        Mon texte informatif 6
+                                    </div>
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13241215">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement logiciel </strong><span class="info-icon info7">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+
+                                    <div class="info-bubble">
+                                        Mon texte informatif 7
+                                    </div>
+
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13240620">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div id="option-12" class="option">
+                            <div class="row 150%">
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement matériel</strong><span class="info-icon info5">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+                                    <div class="info-bubble">
+                                        Mon texte informatif 6
+                                    </div>
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13241229">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement logiciel </strong><span class="info-icon info7">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+
+                                    <div class="info-bubble">
+                                        Mon texte informatif 7
+                                    </div>
+
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13240642">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div id="option-13" class="option">
+                            <div class="row 150%">
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement matériel</strong><span class="info-icon info5">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+                                    <div class="info-bubble">
+                                        Mon texte informatif 6
+                                    </div>
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13241240">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement logiciel </strong><span class="info-icon info7">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+
+                                    <div class="info-bubble">
+                                        Mon texte informatif 7
+                                    </div>
+
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13240659">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div id="option-14" class="option">
+                            <div class="row 150%">
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement matériel</strong><span class="info-icon info5">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+                                    <div class="info-bubble">
+                                        Mon texte informatif 6
+                                    </div>
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13241252">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement logiciel </strong><span class="info-icon info7">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+
+                                    <div class="info-bubble">
+                                        Mon texte informatif 7
+                                    </div>
+
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13240673">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div id="option-15" class="option">
+                            <div class="row 150%">
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement matériel</strong><span class="info-icon info5">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+                                    <div class="info-bubble">
+                                        Mon texte informatif 6
+                                    </div>
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13241263">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement logiciel </strong><span class="info-icon info7">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+
+                                    <div class="info-bubble">
+                                        Mon texte informatif 7
+                                    </div>
+
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13240695">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div id="option-16" class="option">
+                            <div class="row 150%">
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement matériel</strong><span class="info-icon info5">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+                                    <div class="info-bubble">
+                                        Mon texte informatif 6
+                                    </div>
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13241277">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement logiciel </strong><span class="info-icon info7">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+
+                                    <div class="info-bubble">
+                                        Mon texte informatif 7
+                                    </div>
+
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13240708">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div id="option-17" class="option">
+                            <div class="row 150%">
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement matériel</strong><span class="info-icon info5">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+                                    <div class="info-bubble">
+                                        Mon texte informatif 6
+                                    </div>
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13241284">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement logiciel </strong><span class="info-icon info7">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+
+                                    <div class="info-bubble">
+                                        Mon texte informatif 7
+                                    </div>
+
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13240724">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div id="option-18" class="option">
+                            <div class="row 150%">
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement matériel</strong><span class="info-icon info5">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+                                    <div class="info-bubble">
+                                        Mon texte informatif 6
+                                    </div>
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13241294">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement logiciel </strong><span class="info-icon info7">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+
+                                    <div class="info-bubble">
+                                        Mon texte informatif 7
+                                    </div>
+
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13240736">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div id="option-19" class="option">
+                            <div class="row 150%">
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement matériel</strong><span class="info-icon info5">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+                                    <div class="info-bubble">
+                                        Mon texte informatif 6
+                                    </div>
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13241310">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement logiciel </strong><span class="info-icon info7">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+
+                                    <div class="info-bubble">
+                                        Mon texte informatif 7
+                                    </div>
+
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13240755">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div id="option-20" class="option">
+                            <div class="row 150%">
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement matériel</strong><span class="info-icon info5">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+                                    <div class="info-bubble">
+                                        Mon texte informatif 6
+                                    </div>
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13241313">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement logiciel </strong><span class="info-icon info7">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+
+                                    <div class="info-bubble">
+                                        Mon texte informatif 7
+                                    </div>
+
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13240769">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div id="option-21" class="option">
+                            <div class="row 150%">
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement matériel</strong><span class="info-icon info5">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+                                    <div class="info-bubble">
+                                        Mon texte informatif 6
+                                    </div>
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13241333">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement logiciel </strong><span class="info-icon info7">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+
+                                    <div class="info-bubble">
+                                        Mon texte informatif 7
+                                    </div>
+
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13240778">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div id="option-22" class="option">
+                            <div class="row 150%">
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement matériel</strong><span class="info-icon info5">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+                                    <div class="info-bubble">
+                                        Mon texte informatif 6
+                                    </div>
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13241346">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement logiciel </strong><span class="info-icon info7">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+
+                                    <div class="info-bubble">
+                                        Mon texte informatif 7
+                                    </div>
+
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13240792">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div id="option-23" class="option">
+                            <div class="row 150%">
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement matériel</strong><span class="info-icon info5">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+                                    <div class="info-bubble">
+                                        Mon texte informatif 6
+                                    </div>
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13241359">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement logiciel </strong><span class="info-icon info7">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+
+                                    <div class="info-bubble">
+                                        Mon texte informatif 7
+                                    </div>
+
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13240803">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div id="option-24" class="option">
+                            <div class="row 150%">
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement matériel</strong><span class="info-icon info5">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+                                    <div class="info-bubble">
+                                        Mon texte informatif 6
+                                    </div>
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13241368">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement logiciel </strong><span class="info-icon info7">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+
+                                    <div class="info-bubble">
+                                        Mon texte informatif 7
+                                    </div>
+
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13240813">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div id="option-25" class="option">
+                            <div class="row 150%">
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement matériel</strong><span class="info-icon info5">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+                                    <div class="info-bubble">
+                                        Mon texte informatif 6
+                                    </div>
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13241386">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement logiciel </strong><span class="info-icon info7">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+
+                                    <div class="info-bubble">
+                                        Mon texte informatif 7
+                                    </div>
+
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13240823">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div id="option-26" class="option">
+                            <div class="row 150%">
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement matériel</strong><span class="info-icon info5">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+                                    <div class="info-bubble">
+                                        Mon texte informatif 6
+                                    </div>
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13241400">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                                <div class="6u 12u$(xsmall)">
+                                    <p><strong>Equipement logiciel </strong><span class="info-icon info7">
+                                            <i class="fa fa-info-circle"></i>
+                                        </span></p>
+
+                                    <div class="info-bubble">
+                                        Mon texte informatif 7
+                                    </div>
+
+                                    <div class="flourish-embed flourish-radar" data-src="visualisation/13240838">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!----------------------------------------------- SEVEN : LITTERATURE ------------------------------------------------------>
+
+    <section id="seven" class="wrapper style1">
+        <div class="container">
+            <header class="major special">
+                <h2>Between criticisms, concerns and praise, digital technology in schools makes literature speak </h2>
+                <p>The literature point</p>
+            </header>
+            <div class="feature-grid">
+                <div class="feature">
+                    <div class="image rounded"><img src="images/marine-roche.jpg" alt="" /></div>
+                    <div class="content">
+                        <header>
+                            <h4>"Digital technology in primary school. Classroom practices and pedagogical supervision in French-speaking countries."</h4>
+                            <p>ROCHE Marine, “Nogry, S., Boulc’h, L. and Villemonteix, F. (dir.). (2019).</p>
+                        </header>
+                        <p>Students who use digital technologies do not necessarily have better results than those who use other media (on the contrary, this sometimes even poses difficulties). The study highlights a tension between institutional expectations and the local reality of their context of practice. It also notes the state of infrastructure, equipment and training, as well as the disparity in the role of supervisors. Clearly, digital technology in schools reveals a lot of inequalities, and uses that are still poorly mastered.
+                        </p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="image rounded"><img src="images/sarah-enlart.jpg" alt="" /></div>
+                    <div class="content">
+                        <header>
+                            <h4>"Internet against school failure?"</h4>
+                            <p>ENLART Sandra, Project Review, 2015/2 (No. 345), p. 32-37.</p>
+                        </header>
+                        <p>Information and communication technologies (ICT) have created new forms of online learning. He emphasizes in particular that the appropriation of these new processes is not obvious and that conditions are necessary for individuals to be able to integrate them. In other words, many inequalities are inevitably formed between individuals when the integration of knowledge was not already egalitarian, and this seems all the more flagrant with the arrival of digital technology.</p> >
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="image rounded"><img src="images/pascal-plantard.jpg" alt="" /></div>
+                    <div class="content">
+                        <header>
+                            <h4>" Against the "digital divide", no magic tablet!"</h4>
+                            <p>PLANTARD Pascal, Project Review, 2015/2 (No. 345), p. 23-30.
+                            </p>
+                        </header>
+                        <p>The “digital divide” represents the disparity in access to and use of digital technologies. The answer to this problem cannot simply be to distribute tablets to disadvantaged populations but rather to have a more complex and sensitive approach to local contexts, which takes into account the broader social and economic inequalities that underlie the "fracture digital". Training and supporting users in the use of digital technologies is essential, to ensure that they can get the most out of them.</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="image rounded"><img src="images/gregoire-borst.jpg" alt="" /></div>
+                    <div class="content">
+                        <header>
+                            <h4>"Digital, an opportunity for students."</h4>
+                            <p>BORST Grégoire, Human Sciences, 2022/10 (No. 351), p. 48-50.</p>
+                        </header>
+                        <p>Digital technology has taken a considerable place in the daily lives of young people. Digital technologies can benefit students' education, including helping them make learning more interactive, personalized and accessible. For example, students can access online educational resources, use apps to practice specific skills, and participate in collaborative online projects. Digital technologies can be used to track student progress and adapt teaching accordingly.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!----------------------------------------------- EIGHT : POINT DE VUE ENSEIGNANT ------------------------------------------------------>
+    <hr>
+    <section id="eight" class="wrapper style1">
+        <div id="partie1" , class="container 75%">
+            <div class="row 200%">
+                <div class="6u 12u$(medium)">
+                    <header class="major">
+                        <h2><i>"Digital equipment changes everything !"</i></h2>
+                        <p>Review of a primary school teacher</p>
+                    </header>
+                </div>
+                <div class="6u$ 12u$(medium)">
+                    <p><i>"The computer equipment is provided by the State. For us, the small municipalities of less than 2000 inhabitants, there was a whole program with funds to equip the small schools in the countryside. <strong> Digital equipment is changing the way of teaching enormously, it is propelling the transmission of knowledge.</strong></i></p>
+                    <p><i>For example, Interactive Whiteboards are indispensable, and they are almost everywhere today. Both children and teachers prefer, it's much more interactive!"</i></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!----------------------------------------------- FOOTER ------------------------------------------------------>
+
+    <footer id="footer">
+        <div class="container">
+            <ul class="copyright">
+                <li>&copy; Selma EL BABARTI & Suzanne LEBASTARD</li>
+                <li><a href="https://mcn.univ-nantes.fr/?gclid=EAIaIQobChMI6ufB2fCD_gIVmI9oCR0ybwfSEAAYASAAEgLVf_D_BwE">Master CULTURES NUMERIQUES</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!----------------------------------------------- SCRIPTS ------------------------------------------------------>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/ajouts.js"></script>
+
+</body>
+
+</html>
